@@ -93,12 +93,12 @@ export const TogetherPie = () => (
 const albums = [
   {
     title: "Occasions",
-    images: [`${process.env.PUBLIC_URL}/images/Occasions/1.jpg`, 
-      `${process.env.PUBLIC_URL}/images/Occasions/2.jpg`,
-      `${process.env.PUBLIC_URL}/images/Occasions/3.jpg`, 
-      `${process.env.PUBLIC_URL}/images/Occasions/4.jpg`,
-      `${process.env.PUBLIC_URL}/images/Occasions/5.jpg`, 
-      `${process.env.PUBLIC_URL}/images/Occasions/6.jpg`,
+    images: [`${process.env.PUBLIC_URL}/images/occasions/1.jpg`, 
+      `${process.env.PUBLIC_URL}/images/occasions/2.jpg`,
+      `${process.env.PUBLIC_URL}/images/occasions/3.jpg`, 
+      `${process.env.PUBLIC_URL}/images/occasions/4.jpg`,
+      `${process.env.PUBLIC_URL}/images/occasions/5.jpg`, 
+      `${process.env.PUBLIC_URL}/images/occasions/6.jpg`,
     ],
   },
   {
