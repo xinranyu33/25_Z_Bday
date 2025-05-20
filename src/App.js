@@ -93,6 +93,7 @@ export const TogetherPie = () => (
 const albums = [
   {
     title: "Occasions",
+    
     images: [`${process.env.PUBLIC_URL}/images/occasions/1.jpg`, 
       `${process.env.PUBLIC_URL}/images/occasions/2.jpg`,
       `${process.env.PUBLIC_URL}/images/occasions/3.jpg`, 
@@ -307,64 +308,64 @@ export default function App() {
               date: "July 2024",
               location: "New York 🏙️",
               daystogether: "6 days~~",
-              memory: "Moving!",
+              memory: "Moving back to NYC!",
               image: `${process.env.PUBLIC_URL}/images/timeline/24_jul_nyc.jpg`,
             },
             {
               date: "July 2024",
-              location: "Pittsburg 🌉",
+              location: "Pittsburgh 🌉",
               daystogether: "3 days~~",
-              memory: "Finally cmu and I was magically only sick during the conference day!",
+              memory: "Finally visited CMU ❤️ - and magically, I was only sick on the conference day!",
               image: `${process.env.PUBLIC_URL}/images/timeline/24_jul_pitts.jpg`,
             },
             {
               date: "August 2024",
               location: "Vancouver 🏡",
               daystogether: "10 days~~",
-              memory: "You are back right away~",
+              memory: "You came back right away — home sweet home~",
               image: `${process.env.PUBLIC_URL}/images/timeline/24_aug_van.jpg`,
             },
             {
               date: "September 2024",
               location: "Vancouver 🏞",
               daystogether: "10 days~~",
-              memory: "Whales with dad",
+              memory: "Whale watching with dad!",
               image: `${process.env.PUBLIC_URL}/images/timeline/24_sep_van.jpg`,
             },
             {
               date: "October 2024",
               location: "Vancouver 🏡",
               daystogether: "6 days~~",
-              memory: "K's here!",
+              memory: "Kriam is here 🌟",
               image: `${process.env.PUBLIC_URL}/images/timeline/24_oct_van.jpg`,
             },
             {
-              date: "December 2024 - Janurary 2025",
+              date: "December 2024 - January 2025",
               location: "Vancouver 🎄",
               daystogether: "36 days!!",
-              memory: "Back for the holidays~~~",
+              memory: "Back home for the chilled holidays~~~",
               image: `${process.env.PUBLIC_URL}/images/timeline/24_dec_van.jpg`,
             },
             {
               date: "March 2025",
               location: "Vancouver 🏡",
               daystogether: "9 days~~",
-              memory: "Spring break!!!",
+              memory: "Longest time away ... but spring break finally came!!!",
               image: `${process.env.PUBLIC_URL}/images/timeline/25_mar_van.jpg`,
             },
             {
               date: "April 2025",
               location: "NYC again 🗽",
               daystogether: "7 days~~",
-              memory: "All the paperwork... And finally comedy cellar!",
+              memory: "All the paperwork... but we finally made it to the Comedy Cellar!",
               image: `${process.env.PUBLIC_URL}/images/timeline/25_apr_nyc.jpg`,
             },
             {
               date: "May 2025",
               location: "Back home 🏡",
               daystogether: "11 days so far~~",
-              memory: "Yeah~~",
-              image: `${process.env.PUBLIC_URL}/images/timeline/24_jul_nyc.jpg`,
+              memory: "Yeah~ Welcome home, my 顺毛小狗~~~",
+              image: `${process.env.PUBLIC_URL}/images/timeline/25_may_van.jpg`,
             },
 
           ].map((visit, index) => (
@@ -396,8 +397,8 @@ export default function App() {
                   {/* Left column: text */}
                   <div>
                     <h3 className="text-md font-semibold italic text-forest-800">{visit.date} - {visit.daystogether}</h3>
-                    <h3 className="text-xl font-semibold text-forest-800">{visit.location}</h3>
-                    <p className="mt-2 text-forest-700 text-md leading-relaxed">{visit.memory}</p>
+                    <h3 className="mt-1 text-sm font-semibold text-forest-800">{visit.location}</h3>
+                    <p className="mt-5 text-forest-700 text-xl leading-relaxed font-hand">{visit.memory}</p>
                   </div>
               
                   {/* Right column: image */}
