@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/25_Z_Bday/static/css/main.18a53d82.css",
-    "main.js": "/25_Z_Bday/static/js/main.c173d1db.js",
+    "main.js": "/25_Z_Bday/static/js/main.b7042c55.js",
     "index.html": "/25_Z_Bday/index.html",
     "main.18a53d82.css.map": "/25_Z_Bday/static/css/main.18a53d82.css.map",
-    "main.c173d1db.js.map": "/25_Z_Bday/static/js/main.c173d1db.js.map"
+    "main.b7042c55.js.map": "/25_Z_Bday/static/js/main.b7042c55.js.map"
   },
   "entrypoints": [
     "static/css/main.18a53d82.css",
-    "static/js/main.c173d1db.js"
+    "static/js/main.b7042c55.js"
   ]
 }
