@@ -271,7 +271,7 @@ export default function App() {
   
   return ( 
 
-      <div className="bg-[#3A4D39] text-[#F0EAD6] min-h-screen font-sans">
+      <div className="bg-[#3A4D39] text-[#F0EAD6] min-h-screen font-sans overflow-x-hidde">
       <section className="h-screen flex items-center justify-center text-center">
         <SparkleGroup count={10} />
         <motion.div
