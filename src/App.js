@@ -60,7 +60,7 @@ const renderCustomizedLabel = ({
 
 export const TogetherPie = () => (
   <div className="w-full max-w-md mx-auto my-12 text-center">
-    <ResponsiveContainer width={500} height={410}>
+    <ResponsiveContainer width={450} height={360}>
       <PieChart>
         <Pie
           data={togetherData}
@@ -68,7 +68,7 @@ export const TogetherPie = () => (
           nameKey="name"
           cx="50%"
           cy="50%"
-          outerRadius={200}
+          outerRadius={160}
           labelLine={false}
           label={renderCustomizedLabel}
           isAnimationActive={true}
