@@ -59,7 +59,8 @@ const renderCustomizedLabel = ({
 };
 
 export const TogetherPie = () => (
-  <div className="w-full max-w-md mx-auto my-12 text-center">
+  <div className="w-full flex justify-center max-w-md 
+  mx-auto my-12 text-center">
     <ResponsiveContainer width={450} height={360}>
       <PieChart>
         <Pie
@@ -271,9 +272,7 @@ export default function App() {
   
   return ( 
 
-      <div className="bg-[#3A4D39] text-[#F0EAD6] min-h-screen font-sans overflow-x-hidden"
-      style={{ outline: "1px solid red" }}
-      >
+      <div className="bg-[#3A4D39] text-[#F0EAD6] min-h-screen font-sans overflow-x-hidden">
       <section className="h-screen flex items-center justify-center text-center">
         <SparkleGroup count={10} />
         <motion.div
@@ -485,8 +484,8 @@ export default function App() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView_bdcard ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 2, ease: "easeOut" }}
-          className="relative bg-[#3A4D39] max-w-3xl mx-auto -my-12 pb-60 px-6 text-center">
-          
+          className="relative bg-[#3A4D39] max-w-3xl mx-auto -my-16 
+          pt-36 md:pt-0 px-8 py-16 text-center">
           
           <div className="relative inline-block">
             <div
