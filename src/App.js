@@ -271,7 +271,9 @@ export default function App() {
   
   return ( 
 
-      <div className="bg-[#3A4D39] text-[#F0EAD6] min-h-screen font-sans overflow-x-hidde">
+      <div className="bg-[#3A4D39] text-[#F0EAD6] min-h-screen font-sans overflow-x-hidden"
+      style={{ outline: "1px solid red" }}
+      >
       <section className="h-screen flex items-center justify-center text-center">
         <SparkleGroup count={10} />
         <motion.div
